@@ -1,0 +1,51 @@
+{
+  "application_id": "APP002",
+  "application_date": "2026-02-13",
+  "loan_type": "DEBT_CONSOLIDATION",
+  "applicant": {
+    "first_name": "Marcus",
+    "last_name": "Johnson",
+    "date_of_birth": "1992-11-22",
+    "ssn_last_four": "7891",
+    "email": "marcus.j@email.com",
+    "phone": "555-234-5678",
+    "address": {
+      "street": "789 Pine Street",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    }
+  },
+  "employment": {
+    "employer_name": "Austin Medical Center",
+    "job_title": "Registered Nurse",
+    "years_employed": 2.0,
+    "employment_type": "FULL_TIME",
+    "employer_phone": "555-876-5432"
+  },
+  "financial_info": {
+    "annual_income": 72000,
+    "monthly_income": 6000,
+    "other_income": 500,
+    "credit_score": 658,
+    "existing_debts": {
+      "credit_cards": 850,
+      "personal_loan": 400,
+      "medical_bills": 200
+    },
+    "total_monthly_debt": 1450,
+    "assets": {
+      "checking_account": 3500,
+      "savings_account": 8000,
+      "retirement_401k": 25000
+    },
+    "bankruptcies": 0,
+    "late_payments_12mo": 2
+  },
+  "loan_request": {
+    "amount": 25000,
+    "purpose": "Debt consolidation - pay off high-interest credit cards",
+    "term_months": 60,
+    "preferred_payment_date": 1
+  }
+}

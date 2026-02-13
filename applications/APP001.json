@@ -1,0 +1,51 @@
+{
+  "application_id": "APP001",
+  "application_date": "2026-02-13",
+  "loan_type": "PERSONAL",
+  "applicant": {
+    "first_name": "Sarah",
+    "last_name": "Mitchell",
+    "date_of_birth": "1988-05-15",
+    "ssn_last_four": "4532",
+    "email": "sarah.mitchell@email.com",
+    "phone": "555-123-4567",
+    "address": {
+      "street": "456 Oak Avenue",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80202"
+    }
+  },
+  "employment": {
+    "employer_name": "TechCorp Solutions",
+    "job_title": "Senior Software Engineer",
+    "years_employed": 4.5,
+    "employment_type": "FULL_TIME",
+    "employer_phone": "555-987-6543"
+  },
+  "financial_info": {
+    "annual_income": 125000,
+    "monthly_income": 10417,
+    "other_income": 0,
+    "credit_score": 742,
+    "existing_debts": {
+      "car_loan": 350,
+      "credit_cards": 200,
+      "student_loans": 450
+    },
+    "total_monthly_debt": 1000,
+    "assets": {
+      "checking_account": 15000,
+      "savings_account": 45000,
+      "retirement_401k": 120000
+    },
+    "bankruptcies": 0,
+    "late_payments_12mo": 0
+  },
+  "loan_request": {
+    "amount": 35000,
+    "purpose": "Home improvement - kitchen renovation",
+    "term_months": 48,
+    "preferred_payment_date": 15
+  }
+}

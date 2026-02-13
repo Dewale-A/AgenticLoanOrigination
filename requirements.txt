@@ -1,0 +1,17 @@
+# Core dependencies
+crewai>=0.28.0
+crewai-tools>=0.1.0
+
+# Document processing
+pypdf>=3.17.0
+python-docx>=1.0.0
+
+# Data processing
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Utilities
+rich>=13.0.0
+
+# PDF Export
+fpdf2>=2.7.0

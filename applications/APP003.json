@@ -1,0 +1,51 @@
+{
+  "application_id": "APP003",
+  "application_date": "2026-02-13",
+  "loan_type": "PERSONAL",
+  "applicant": {
+    "first_name": "David",
+    "last_name": "Chen",
+    "date_of_birth": "1975-03-08",
+    "ssn_last_four": "2345",
+    "email": "d.chen@email.com",
+    "phone": "555-345-6789",
+    "address": {
+      "street": "123 Elm Road",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101"
+    }
+  },
+  "employment": {
+    "employer_name": "Freelance Consulting",
+    "job_title": "Independent Consultant",
+    "years_employed": 0.8,
+    "employment_type": "SELF_EMPLOYED",
+    "employer_phone": "555-345-6789"
+  },
+  "financial_info": {
+    "annual_income": 55000,
+    "monthly_income": 4583,
+    "other_income": 0,
+    "credit_score": 598,
+    "existing_debts": {
+      "credit_cards": 600,
+      "car_loan": 450,
+      "personal_loan": 300
+    },
+    "total_monthly_debt": 1350,
+    "assets": {
+      "checking_account": 2000,
+      "savings_account": 5000,
+      "retirement_401k": 80000
+    },
+    "bankruptcies": 1,
+    "late_payments_12mo": 4
+  },
+  "loan_request": {
+    "amount": 20000,
+    "purpose": "Business expansion - equipment purchase",
+    "term_months": 36,
+    "preferred_payment_date": 20
+  }
+}
