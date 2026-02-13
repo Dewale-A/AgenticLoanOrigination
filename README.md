@@ -2,6 +2,12 @@
 
 A production-ready **multi-agent AI system** for automated loan origination and underwriting. Built with [CrewAI](https://crewai.com), this system demonstrates how autonomous AI agents can collaborate to process loan applications through a complete underwriting workflow.
 
+## 🏗️ System Architecture
+
+<div align="center">
+  <img src="docs/architecture.svg" alt="System Architecture" width="100%"/>
+</div>
+
 ## 🎯 Overview
 
 This system automates the loan origination process using 6 specialized AI agents that work together sequentially, mimicking a real lending institution's workflow:
