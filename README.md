@@ -1,4 +1,4 @@
-# 🏦 AgenticLoanOrigination
+# 🏦 Agentic Loan Origination
 
 A production-ready **multi-agent AI system** for automated loan origination and underwriting. Built with [CrewAI](https://crewai.com), this system demonstrates how autonomous AI agents can collaborate to process loan applications through a complete underwriting workflow.
 
