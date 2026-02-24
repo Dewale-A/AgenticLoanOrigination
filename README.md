@@ -13,43 +13,43 @@ A production-ready **multi-agent AI system** for automated loan origination and 
 This system automates the loan origination process using 6 specialized AI agents that work together sequentially, mimicking a real lending institution's workflow:
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    AGENTIC LOAN ORIGINATION SYSTEM                          │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
+┌────────────────────────────────────────────────────────────────────────────┐
+│                    AGENTIC LOAN ORIGINATION SYSTEM                         │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                            │
 │   📄 APPLICATION          🔍 VERIFICATION         📊 CREDIT                │
 │   ┌─────────────┐        ┌─────────────┐        ┌─────────────┐            │
 │   │  Document   │───────▶│ Verification│───────▶│   Credit    │            │
 │   │   Intake    │        │   Analyst   │        │   Analyst   │            │
 │   └─────────────┘        └─────────────┘        └─────────────┘            │
-│         │                       │                      │                    │
-│         │                       │                      ▼                    │
+│         │                       │                      │                   │
+│         │                       │                      ▼                   │
 │         │                       │               ┌─────────────┐            │
 │         │                       │               │    Risk     │            │
 │         │                       │               │  Assessor   │            │
 │         │                       │               └─────────────┘            │
-│         │                       │                      │                    │
-│         │                       ▼                      ▼                    │
+│         │                       │                      │                   │
+│         │                       ▼                      ▼                   │
 │         │               ┌─────────────────────────────────┐                │
 │         │               │       UNDERWRITER               │                │
 │         │               │   (Final Decision Authority)    │                │
 │         │               └─────────────────────────────────┘                │
-│         │                              │                                    │
-│         │                              ▼                                    │
+│         │                              │                                   │
+│         │                              ▼                                   │
 │         │                       ┌─────────────┐                            │
 │         └──────────────────────▶│    Offer    │                            │
 │                                 │  Generator  │                            │
 │                                 └─────────────┘                            │
-│                                        │                                    │
-│                                        ▼                                    │
+│                                        │                                   │
+│                                        ▼                                   │
 │                              ┌─────────────────┐                           │
 │                              │  LOAN DECISION  │                           │
 │                              │  ✓ Approved     │                           │
 │                              │  ⚠ Conditional  │                           │
 │                              │  ✗ Denied       │                           │
 │                              └─────────────────┘                           │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## 🤖 Agent Roles
